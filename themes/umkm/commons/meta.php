@@ -2,7 +2,7 @@
 
 <?php defined('THEME_VERSION') or define('THEME_VERSION', 'V4.7') ?>
 
-<?php $desa_title = trim(ucwords($this->setting->sebutan_desa) . ' ' . $desa['nama_desa'].' '.$this->setting->sebutan_kecamatan_singkat . ' ' . $desa['nama_kecamatan'].' '.$this->setting->sebutan_kabupaten_singkat . ' ' . $desa['nama_kabupaten']); ?>
+<?php $desa_title = trim(ucwords($this->setting->sebutan_kecamatan) . ' ' . $desa['nama_kecamatan'].' '.$this->setting->sebutan_kabupaten . ' ' . $desa['nama_kabupaten']); ?>
 
     <meta content="utf-8" http-equiv="encoding">
 
@@ -12,7 +12,7 @@
 
     <meta name='google' content='notranslate' />
 
-    <meta name='theme' content='SIDeGa Blue' />
+    <meta name='theme' content='Potensi Kecamatan umkm' />
 
     <meta name='designer' content='Bambang Andri H'/>
 
@@ -61,9 +61,9 @@
 
     <meta property='og:url' content="<?= current_url(); ?>" />
 
-<?php if(is_file(LOKASI_LOGO_DESA . "favicon.ico")): ?>
+<?php if(is_file(LOKASI_LOGO_INSTANSI . "favicon.ico")): ?>
 
-    <link rel="shortcut icon" href="<?= base_url() . LOKASI_LOGO_DESA?>favicon.ico" />
+    <link rel="shortcut icon" href="<?= base_url() . LOKASI_LOGO_INSTANSI?>favicon.ico" />
 
 <?php else: ?>
 

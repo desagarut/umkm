@@ -1436,7 +1436,8 @@ top: -1px;
 }
 
 .header .topbar {
-  background-color: #081828;
+  /*background-color: #081828;*/
+  background-color: #0167F3;
   padding: 18px 0;
 }
 
@@ -1461,7 +1462,7 @@ top: -1px;
   color: #fff !important;
   font-weight: 500;
   font-size: 14px;
-  background-color: #081828 !important;
+  background-color: #0167F3; !important;
 }
 
 .header .topbar .top-left .menu-top-link .select-position select:focus {
@@ -4889,4 +4890,15 @@ top: 2px;
   .footer .footer-bottom .socila li span {
     display: none;
   }
+  
+.judul-slider{
+	font-size: 25px;
+    color: #0c83c5;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px #000;
+    -webkit-text-stroke: 1px #fff;
+}  
 }

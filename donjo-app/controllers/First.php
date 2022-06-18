@@ -114,6 +114,8 @@ class First extends Web_Controller {
 
 		$data['headline'] = $this->first_artikel_m->get_headline();
 		$data['cari'] = htmlentities($this->input->get('cari'));
+		$data['main'] = $this->first_toko_warga_m->list_data($o, $data['paging']->offset, $data['paging']->per_page);
+		$data['produk_data'] = $this->first_toko_warga_m->list_produk($gal, $o, $data['paging']->offset, $data['paging']->per_page);
 		
 		$cari = trim($this->input->get('cari'));
 		if ( ! empty($cari))
@@ -123,82 +125,10 @@ class First extends Web_Controller {
 		}
 
 		$this->_get_common_data($data);
-		$this->track_model->track_desa('first');
+		//$this->track_model->track_desa('first');
 		$this->load->view($this->template, $data);
 	}
 	
-	public function rss_covid()
-	{
-		$data = $this->includes;
-
-		$this->set_template('layouts/rss_covid.php');
-		
-		if ($this->setting->covid_rss)
-		{
-			$data['feed'] = array(
-				'items' => $this->first_artikel_m->get_feed(),
-				'title' => 'BERITA COVID-19',
-				'url' => 'https://www.covid19.go.id'
-			);
-		}
-		
-		if ($this->setting->apbdes_footer)
-		{
-			$data['transparansi'] = $this->setting->apbdes_manual_input
-				? $this->keuangan_grafik_manual_model->grafik_keuangan_tema()
-				: $this->keuangan_grafik_model->grafik_keuangan_tema();
-		}
-		
-		$data['covid'] = $this->laporan_penduduk_model->list_data('covid');
-
-		$cari = trim($this->input->get('cari'));
-		if ( ! empty($cari))
-		{
-			// Judul artikel bisa digunakan untuk serangan XSS
-			$data["judul_kategori"] = htmlentities("Hasil pencarian : ". substr($cari, 0, 50));
-		}
-
-		$this->_get_common_data($data);
-		$this->load->view($this->template, $data);
-	}
-	
-	public function rss_info_mitra()
-	{
-		$data = $this->includes;
-
-		$this->set_template('layouts/rss_info_mitra.php');
-		
-		if ($this->setting->feed_kecamatan)
-		{
-			$data['feed1'] = array(
-				'items1' => $this->first_artikel_m->get_feed1(),
-				'title' => 'Kabar Kecamatan Cisompet',
-				'url' => 'https://www.kecamatancisompet.id'
-			);
-		}
-		
-		$this->_get_common_data($data);
-		$this->load->view($this->template, $data);
-	}
-	
-	public function rss_info_pendidikan()
-	{
-		$data = $this->includes;
-
-		$this->set_template('layouts/rss_info_pendidikan.php');
-		
-		if ($this->setting->feed_sthg)
-		{
-			$data['feed_sthg'] = array(
-				'items_sthg' => $this->first_artikel_m->get_feed_sthg(),
-				'title' => 'Info Sekolah Tinggi Hukum Garut',
-				'url' => 'https://www.sthgarut.ac.id'
-			);
-		}
-		
-		$this->_get_common_data($data);
-		$this->load->view($this->template, $data);
-	}
 
 	/*
 	| Artikel bisa ditampilkan menggunakan parameter pertama sebagai id, dan semua parameter lainnya dikosongkan. url artikel/:id
@@ -568,6 +498,8 @@ class First extends Web_Controller {
 		$data['slide_artikel'] = $this->first_artikel_m->slide_show();
 		$data['slider_gambar'] = $this->first_artikel_m->slider_gambar();
 		$data['w_cos'] = $this->web_widget_model->get_widget_aktif();
+		
+		$data['toko'] = $this->first_toko_warga_m->get_toko();
 
 		$this->web_widget_model->get_widget_data($data);
 		$data['data_config'] = $this->config_model->get_data();

@@ -15,18 +15,19 @@
 		$this->load->view($folder_themes .'/partials/slider');
 	}*/
 ?>
-<?php $this->load->view($folder_themes .'/partials/running_text') ?>
+<?php // $this->load->view($folder_themes .'/partials/running_text') ?>
 <?php $this->load->view($folder_themes .'/partials/slider') ?>
 <?php // $this->load->view($folder_themes .'/partials/toko_warga/slider') ?>
+<?php $this->load->view($folder_themes .'/partials/toko_warga/toko_show') ?>
+
 <?php $this->load->view($folder_themes .'/partials/tentang') ?>
-<?php if(empty($this->input->get('cari')) AND $headline AND $this->uri->segment(2) != 'kategori') : ?>
-	<?php $this->load->view($folder_themes .'/partials/headline') ?>
-<?php endif ?>
-<?php $this->load->view($folder_themes .'/partials/aparatur') ?>
-<?php $this->load->view($folder_themes .'/partials/statistik') ?>
-<?php $this->load->view($folder_themes .'/partials/portal') ?>
-<?php $this->load->view($folder_themes .'/partials/gallery') ?>
-<?php $this->load->view($folder_themes .'/partials/sinergi') ?>
+<?php //if(empty($this->input->get('cari')) AND $headline AND $this->uri->segment(2) != 'kategori') : ?>
+	<?php //$this->load->view($folder_themes .'/partials/headline') ?>
+<?php //endif ?>
+<?php //$this->load->view($folder_themes .'/partials/statistik') ?>
+<?php //$this->load->view($folder_themes .'/partials/portal') ?>
+<?php // $this->load->view($folder_themes .'/partials/gallery') ?>
+<?php // $this->load->view($folder_themes .'/partials/sinergi') ?>
 
 <?php //$this->load->view($folder_themes. '/partials/apbdesa-tema.php');?>
 
@@ -39,3 +40,4 @@
 <?php //$this->load->view($folder_themes .'/partials/faq') ?>
 <?php //$this->load->view($folder_themes .'/partials/running_text') ?>
 <?php // $this->load->view($folder_themes .'/partials/contact') ?>
+  
