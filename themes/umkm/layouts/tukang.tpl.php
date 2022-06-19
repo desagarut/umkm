@@ -31,7 +31,7 @@
     </div>
   </div>
 </section>
-<?php $this->load->view($folder_themes .'/commons/footer_min') ?>
+<?php $this->load->view($folder_themes .'/commons/footer') ?>
 <?php $this->load->view($folder_themes . '/commons/for_js') ?>
 </body>
 </html>

@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/bootstrap/css/bootstrap3-wysihtml5.min.css") ?>" />-->
 <!-- bootstrap wysihtml5 - text editor -->
     
+    
     <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/bootstrap.min.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/LineIcons.3.0.css") ?>" />
     <link rel="stylesheet" href="<?= base_url("$this->theme_folder/$this->theme/assets/css/tiny-slider.css") ?>" />

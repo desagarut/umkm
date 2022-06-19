@@ -9,10 +9,8 @@
 <body>
 
 	<?php $this->load->view($folder_themes .'/commons/header') ?>
-    
-                  <?php $this->load->view($folder_themes . '/partials/toko_warga/index.php') ?>
-    
-	<?php $this->load->view($folder_themes .'/commons/footer_min') ?>
+	<?php $this->load->view($folder_themes . '/partials/toko_warga/index.php') ?>
+	<?php $this->load->view($folder_themes .'/commons/footer') ?>
 	<?php $this->load->view($folder_themes . '/commons/for_js') ?>
     
 </body>

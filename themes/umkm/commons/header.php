@@ -22,7 +22,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="top-left">
-                            <ul class="menu-top-link">
+                         <!--   <ul class="menu-top-link">
                                 <li>
                                     <div class="select-position">
                                         <select id="select4">
@@ -48,13 +48,13 @@
                                         </select>
                                     </div>
                                 </li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="top-middle">
                             <ul class="useful-links">
-                                <li><a href="#">Home</a></li>
+                                <li><a href="<?= site_url('first') ?>">Home</a></li>
                                 <li><a href="#">Pengembang</a></li>
                                 <li><a href="#">Hubungi Kami</a></li>
                             </ul>
@@ -62,13 +62,13 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-12">
                         <div class="top-end">
-                            <div class="user">
+                            <!--<div class="user">
                                 <i class="lni lni-user"></i>
                                 Hello
-                            </div>
+                            </div>-->
                             <ul class="user-login">
                                 <li>
-                                    <a href="login.html">Sign In</a>
+                                    <a href="<?= site_url('insidega') ?>">Sign In</a>
                                 </li>
                                 <li>
                                     <a href="#">Register</a>
@@ -247,7 +247,7 @@
     </header>
 
 
-<!--    <div class="preloader">
+   <div class="preloader">
         <div class="preloader-inner">
             <div class="preloader-icon">
                 <span></span>
@@ -255,4 +255,4 @@
             </div>
         </div>
     </div>
-    -->
+
