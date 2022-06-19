@@ -347,3 +347,52 @@ ERROR - 2022-06-19 09:32:54 --> 404 Page Not Found: First/assets
 ERROR - 2022-06-19 09:33:16 --> 404 Page Not Found: First/assets
 ERROR - 2022-06-19 09:33:16 --> 404 Page Not Found: First/assets
 ERROR - 2022-06-19 09:33:17 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:06:41 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:06:41 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:06:42 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:31:06 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:31:06 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:31:07 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:31:58 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:31:58 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:31:58 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:33:18 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:33:18 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:33:18 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:34:58 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:34:58 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:34:58 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:35:54 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:35:54 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:35:54 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:36:59 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:36:59 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:36:59 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:37:32 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:37:32 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:37:32 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:38:02 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:38:02 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:38:02 --> 404 Page Not Found: First/assets
+ERROR - 2022-06-19 10:38:05 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:38:05 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:38:06 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:39:45 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:39:45 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:39:45 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:39:55 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:39:55 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:39:55 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:42:48 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:42:48 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:42:49 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:44:44 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:44:44 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:44:44 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 17:47:43 --> Query error: Table 'umkm.tweb_pamong' doesn't exist - Invalid query: UPDATE `tweb_pamong` SET `pamong_nama` = NULL, `pamong_nip` = NULL
+WHERE `pamong_id` = '707'
+ERROR - 2022-06-19 17:49:13 --> Query error: Table 'umkm.tweb_pamong' doesn't exist - Invalid query: UPDATE `tweb_pamong` SET `pamong_nama` = NULL, `pamong_nip` = NULL
+WHERE `pamong_id` = '707'
+ERROR - 2022-06-19 10:49:22 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:49:22 --> 404 Page Not Found: Artikel/kategori
+ERROR - 2022-06-19 10:49:22 --> 404 Page Not Found: Artikel/kategori
